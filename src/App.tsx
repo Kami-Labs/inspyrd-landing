@@ -8,9 +8,12 @@ function App() {
       <div className="triangle-1">
         <div className="topbar">
           <img src="/images/inspyrd.png" className="logo" />
-          <a href="https://twitter.com/inspyrdnft" target="_blank">
-            <img src="/images/twitter.svg" className="twitter" />
-          </a>
+          <div className="links">
+            <a href="https://blog.inspyrd.io">Blog</a>
+            <a href="https://twitter.com/inspyrdnft" target="_blank">
+              <img src="/images/twitter.svg" className="twitter" />
+            </a>
+          </div>
         </div>
         <img src="/images/triangle1.png" alt="" className="triangle1" />
       </div>
@@ -135,6 +138,15 @@ function App() {
             <a target="_blank" href="https://kamilabs.io">
               <img src="/images/kami-logo.png" alt="" className="kami-logo" />
             </a>
+            <div className="links-footer">
+              <a target="_blank" href="https://twitter.com/inspyrdnft">
+                <img src="/images/twitter.svg" alt="" />
+              </a>
+
+              <a target="_blank" href="https://discord.gg/QHnRXnYaTb">
+                <img src="/images/discord.svg" alt="" />
+              </a>
+            </div>
           </ScrollAnimation>
 
           <div className="copy">&copy; Kami Labs. All rights reserved.</div>

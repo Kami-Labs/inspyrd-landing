@@ -12,6 +12,30 @@
     font-weight: 600;
   }
 
+  .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & > * {
+      padding: 10px;
+    }
+
+    a {
+      color: white;
+      font-weight: 700;
+      text-decoration: none;
+    }
+  }
+
+  .links-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      padding: 10px;
+    }
+  }
   .triangle-1 {
     height: 30vh;
     background-repeat: no-repeat;
